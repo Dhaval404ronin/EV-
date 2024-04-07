@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Charge - Home Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Global.css">
+</head>
+<body>
+    <div class="nav">
+        <img src="#" alt="One Charge" id="logo" >
+        <div class="elements">
+            <a href="/Home page/index.html">Home</a>
+            <span class="menu">
+              <button onmouseenter="myFunction()" class="drpbtn"><a>Services</a></button>
+              <span class="drp_content" id="mydrp">
+                  <a href="/Services/Booking/index.html">Booking</a>
+                  <a href="/Services/Calculator/index.html">Calculator</a>
+                  <a href="/Services/Updates/index.html">Updates</a>
+              </span> 
+          </span>
+            <a href="/Map/index.html">Map</a>
+            <a href="/Contact us/index.html">Contact Us</a>
+            <button class="btnlogout" onclick="goBacktoLogin()">Logout</button>
+        </div>
+        <div class="accountInfo">
+          <img src="/Assests/account-circle-outline.svg" alt="Account" id="accLogo">
+          <h3>Hi,<span>customer</span></h3>
+        </div>
+    </div>
+    <div class="section1">
+        <div class="cursor">
+            <h5>Explore</h5>
+            </div>
+        <video muted autoplay src="/Assests/bg_home_sec1.mp4"></video>
+        <div class="mainPartSec1">
+            <div class="content1">
+                <h1><span class="auto-input"></span></h1>
+                <p>We believe that greener future is possible, and We are commited to making it a reality.</p>
+                <button class="findStation" onclick="gotomap()">Let's Explore!!!</button>
+            </div>
+            <img src="/Assests/img_home_sec1.jpg" alt="Navigation" onclick="gotomap()">
+        </div>
+    </div>
+    <div class="section2">
+        <h1 class="headOfSec2">Features</h1>
+        <!-- <div class="line"></div>/ -->
+        <div class="box">
+          <div class="boxIMG"><iconify-icon icon="ph:plug-bold" style="color:rgb(168, 0, 0);" width="100"></iconify-icon></div>
+          <h2>Charging Station</h2>
+          <h3>Safe and reliable EV charger. IEC 61851 and ISO 26262 compliant.  Embedded safty protection design</h3>
+        </div>
+        <div class="box">
+          <div class="boxIMG"><iconify-icon icon="carbon:application-mobile" style="color: rgb(168, 0, 0);" width="100"></iconify-icon></div>
+          <h2>Mobile App</h2>
+          <h3>Find the closest available EV charger with real-time charger status, review and improve informations</h3>
+        </div>
+        <div class="box">
+          <div class="boxIMG"><iconify-icon icon="streamline:payment-10" style="color: rgb(168, 0, 0);" width="100"></iconify-icon></div>
+          <h2>Payment</h2>
+          <h3>Drivers can pay within the app; Charger operators can generate revenue with zero technical implementation</h3>
+        </div>
+        <div class="box">
+          <div class="boxIMG"><iconify-icon icon="healthicons:medical-records-outline" style="color: rgb(168, 0, 0);" width="100"></iconify-icon></div>
+          <h2>Records</h2>
+          <h3>Users can see their privious act at our platform.and access history of their payment and billing</h3>
+        </div>
+    </div>
+    <div class="section3">
+      <h1 class="headOfSec3">Services</h1>
+      <div class="boxOfsec3">
+        <img src="/Assests/Booking.jpg" alt="Booking">
+        <div class="contentOfSec3">
+          <div class="boxIMG"><iconify-icon icon="solar:book-broken" style="color: #111;" width="100"></iconify-icon></div>
+          <h2>Booking</h2>
+          <h3>Book your slot at your nearest charging station and get recipe of your turn.</h3>
+        </div>
+      </div>
+      <div class="boxOfsec3">
+        <img src="/Assests/Maps.jpg" alt="Maps">
+        <div class="contentOfSec3">
+          <div class="boxIMG"><iconify-icon icon="solar:map-bold" style="color: #111;" width="100"></iconify-icon></div>
+          <h2>Maps</h2>
+          <h3>Provides charging network design and construction service, car manufacturers can build their exclusive network to promote their brand</h3>
+        </div>
+      </div>
+      <div class="boxOfsec3">
+        <img src="/Assests/Calculator.jpg" alt="Calculator">
+        <div class="contentOfSec3">
+          <div class="boxIMG"><iconify-icon icon="clarity:calculator-line" style="color: #111;" width="100"></iconify-icon></div>
+          <h2>Calculator</h2>
+          <h3>oneCHARGE committed to providing seamless and convenient user experience to all EV drivers. Drivers are able to pay, get real-time information and charge their EV easily.</h3>
+        </div>
+      </div>
+    </div>
+    <div class="section4">
+      <h1 class="headOfSec4">Let's get in touch!</h1>
+      <footer class="lowwer">
+        <div class="low_box1">
+          <div class="lowwer_col">
+            <h3 class="lowwer_head">One Charge</h3>
+            <p class="lowwer_intro_txt">Offer complete solutions on public charging facilities, operations and management support with optimal user experience.</p>
+          </div>
+          <div class="lowwer_col">
+            <h3 class="lowwer_head">Important Links</h3>
+            <a href="Home Page.html" class="lowwer_links">Home</a>
+            <a href="#" class="lowwer_links">About the Portal</a>
+            <a href="#" class="lowwer_links">Check our Services</a>
+            <a href="#" class="lowwer_links">Mobility Businesses</a>
+          </div>
+          <div class="lowwer_line"></div>
+          <div class="con_us">
+            <h3 class="lowwer_head">Contact Us</h3>
+            <a href="mailto: 210200107061@gecrajkot.ac.in" class="lowwer_content"> <i class="fa fa-envelope pr-2" aria-hidden="true"></i>
+              onecharge1official.com
+            </a>
+          </div>
+  
+          <div>
+            <h3 class="lowwer_head">Visitors Count</h3>
+            <p class="lowwer_content">Total Visitors</p>
+            <p class="lowwer_content">123862</p>
+          </div>
+          
+        </div>
+  
+        <p class="lowwer_copyright_txt">© Thank You for Visiting our website...</p>
+      </footer>
+    </div>
+</body>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="main.js"></script>
+<script src="/Global.js"></script>
+</html>

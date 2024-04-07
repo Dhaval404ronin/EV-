@@ -1,0 +1,200 @@
+.section1{
+    /* z-index: 0; */
+   min-height: 80vh;
+    width: 100%;
+    display: flex;
+    /* border: 20px solid #dac50a; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    z-index: 5;
+    position: relative;
+    top: 75px;
+    
+    /* background-color: brown; */
+    
+}
+.section1 .upperPart {
+    height: 40vh;
+    min-width: 100%;
+    /* margin: 10px; */
+    
+    /* position: absolute; */
+
+}
+.section1 .upperPart .poster{
+    background-size: cover;
+    background-position: center;
+    
+    height: 39.5vh;
+    /* margin-top: 90px; */
+    background-image: url("/Assests/locator_banner.png");
+}
+
+/* .poster{
+    background: url("locator_banner.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 35vh;
+    margin-top: 90px;
+    
+} */
+    /* padding-bottom: 20px; */
+
+.poster span{
+    font-size: 4em;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color: transparent; 
+    transition-duration: 1s;
+}
+.poster span:hover{
+    box-shadow: 1px 1px 80px rgb(128, 198, 6);
+    color: #f3f3f3;
+    border-radius: 50%;
+}
+.mainPart{
+    /* position: a; */
+    display: flex;
+    flex-direction: column;
+    /* min-height: 80vh; */
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+    /* z-index: 100; */
+    /* background: #000; */
+    /* border: 12px solid #000000; */
+}
+
+.mainPart .contentAndBtn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+
+    justify-content: center;
+    align-items: center;
+}
+.mainPart .contentAndBtn .forGps{
+    text-align: center;
+    font-size: 1.7vw;
+    width: 50%;
+
+}
+.mainPart .contentAndBtn .otherWayToFind{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    
+}
+.mainPart .contentAndBtn .otherWayToFind .setPincode{
+    width: 50%;
+    
+}
+.mainPart .contentAndBtn .otherWayToFind .setRadius{
+    position: relative;
+    width: 50%;
+    right: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.lowwer{
+    display: grid;
+    /* position: fixed; */
+    /* top: 10px; */
+    /* bottom: 0px; */
+
+    width: 100%;
+    z-index: 5;
+    position: relative;
+    color: #000;
+    /* background: url(../img/new-fronend-img/bg-footer.png); */
+    background-color: #185589;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* margin-bottom: -15%; */
+    margin-top: 2;
+    padding: 10px 0 10px;
+}
+.low_box1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-content: center; */
+    padding-bottom: 35px;
+}
+.lowwer_head{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 650;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: left;
+    /* color: #fff; */
+    padding: 10px 0px;
+}
+.lowwer_content{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: left;
+    /* color: #fff; */
+}
+.lowwer_content:hover{
+    color: #00b0f0;
+} 
+.lowwer_intro_txt{
+    /* color: #fff; */
+    width: 75%;
+}
+.lowwer_line{
+    height: 100%;
+    width: 1px;
+    background-color: #000000;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+.con_us{
+    display: flex;
+    width: 19%;
+    flex-direction: column;
+}
+.lowwer_copyright_txt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    /* color: #fff; */
+    margin-bottom: 0px;
+    border-top: 1px solid #000000b3;
+    padding-top: 10px;
+}
+.lowwer_col{
+    display: flex;
+    align-items: center;
+    width: 19%;
+    flex-direction: column;
+}
+.lowwer_links {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 31px;
+    text-align: left;
+    /* color: #fff; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient( to right, #00b0f0, #00b0f0 50%, #000000 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+    text-transform: capitalize;
+}
+
+.lowwer_links:hover {
+    transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
+}

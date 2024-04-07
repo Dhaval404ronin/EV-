@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <link rel="stylesheet" href="/Global1.css">                     
+</head>
+<body>
+    <header class="header">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand logo" href="index.html">
+                                <img class="logo1" src="assets/images/logo/logo.svg" alt="Logo" />
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a href="/Home page/index.html">Home</a></li>
+                                    <li class="nav-item"><a href="#">Services</a>
+                                        <ul class="sub-menu">
+                                           <li> <a href="/Services/Booking/index.html" class="active">Booking</a></li>
+                                           <li><a href="/Services/Calculator/index.html">Calculator</a></li>
+                                           <li><a href="/Services/Updates/index.html">Updates</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a  href="/Map/index.html">Maps</a></li>
+                                    <li class="nav-item"><a href="/Contact us/index.html">Contact</a></li>
+                                    <li class="nav-item"><a href="/Account/index.html">Account</a></li>
+                                </ul>
+                            </div>
+                            <!-- navbar collapse -->
+                            <div class="button">
+                                <a href="#" class="btn" onclick="goBacktoLogin()">Log out</a>
+                            </div>
+                            
+                        </nav>
+                        <!-- navbar -->
+
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </div>
+        <!-- navbar area -->
+    </header>
+    <div class="Mainsection">
+        <div class="searchingArea">
+            <input type="search"  id="searchArea" class="SearchArea" placeholder="search">
+            <button type="button" class="searchBtn" onclick="search();">Search</button>
+        </div>
+        <div class="searchResult">
+            <p>Find Station Manually by their name</p>
+        </div>
+    </div>
+    <footer class="lowwer">
+        <div class="low_box1">
+          <div class="lowwer_col">
+            <h3 class="lowwer_head">One Charge</h3>
+            <p class="lowwer_intro_txt">Offer complete solutions on public charging facilities, operations and management support with optimal user experience.</p>
+          </div>
+          <div class="lowwer_col">
+            <h3 class="lowwer_head">Important Links</h3>
+            <a href="Home Page.html" class="lowwer_links">Home</a>
+            <a href="#" class="lowwer_links">About the Portal</a>
+            <a href="#" class="lowwer_links">Check our Services</a>
+            <a href="#" class="lowwer_links">Mobility Businesses</a>
+          </div>
+          <div class="lowwer_line"></div>
+          <div class="con_us">
+            <h3 class="lowwer_head">Contact Us</h3>
+            <a href="mailto: 210200107061@gecrajkot.ac.in" class="lowwer_content"> <i class="fa fa-envelope pr-2" aria-hidden="true"></i>
+              onecharge1official.com
+            </a>
+          </div>
+  
+          <div>
+            <h3 class="lowwer_head">Visitors Count</h3>
+            <p class="lowwer_content">Total Visitors</p>
+            <p class="lowwer_content">123862</p>
+          </div>
+          
+        </div>
+  
+        <p class="lowwer_copyright_txt">© Thank You for Visiting our website...</p>
+      </footer>
+</body>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="main.js"></script>
+<script src="/Global1.js"></script>
+<script src="/bootstrap.min.js"></script>
+</html>
